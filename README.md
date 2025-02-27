@@ -35,7 +35,7 @@ for i in range(len(X)):
 mean = num/dem
 # Y intercept
 b = Y_Mean - mean * X_Mean
-print(f"Slope,b: {s}")
+print(f"Slope,b: {mean}")
 print(f"Y_Intercept,b: {b}")
 #line equation
 Y_predict = mean*X+b
